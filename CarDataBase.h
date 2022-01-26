@@ -15,8 +15,6 @@ class CarDataBase{
     CarNode* head;
     string fileName;
     SortingLinkedList sortingLinkedList;
-
-    CarNode* recursiveFindingBrand();
 public:
     int size();
     void printAll();
@@ -25,12 +23,12 @@ public:
     bool saveToFile();
     bool saveToFile(string fileName);
     bool readFromFile(string fileName);
-    void readFromFile();
     void add(Car* car) ;
     bool remove(unsigned int index);
     CarNode* getCarNode(unsigned int number);
     CarNode* sortElements();
     CarNode *findCarByBrand(const string &brand, CarNode *startingNode);
+    CarNode *findCarByPrice(int i, int i1, CarNode *pNode);
 };
 
 

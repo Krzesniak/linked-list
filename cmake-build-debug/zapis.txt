@@ -26,5 +26,11 @@ nadwozie5
 BMW
 model1fa2
 3032
-1442342304
+1.44234e+09
 42334
+nowe
+BETA
+AUDI
+40
+20
+10

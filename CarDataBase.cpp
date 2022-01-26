@@ -55,6 +55,7 @@ bool CarDataBase::remove(unsigned int index) {
     if (index == 0 && this->size() == 1) {
         delete this->head->getCar();
         delete this->head;
+        this->head = nullptr;
         return true;
 
     } else if (index == 0 && this->size() > 1) {
@@ -95,7 +96,8 @@ bool CarDataBase::saveToFile(string fileName) {
         file << carNode->getCar()->getBrand() << endl;
         file << carNode->getCar()->getModel() << endl;
         file << carNode->getCar()->getMileage() << endl;
-        file << carNode->getCar()->getEngingeCapacity();
+        file << carNode->getCar()->getPrice() << endl;
+        file << carNode->getCar()->getEngingeCapacity() << endl;
         carNode = carNode->getNext();
     }
     file.close();
@@ -146,6 +148,12 @@ bool CarDataBase::readFromFile(string fileName) {
 }
 
 void CarDataBase::clearAll() {
+    if(this->size() <= 0) return;
+    auto allElements = this->size();
+    for(int i=0; i<allElements; i++){
+        this->remove(0);
+    }
+    this->head = nullptr;
     return;
 }
 
@@ -158,17 +166,22 @@ CarNode *CarDataBase::findCarByBrand(const string &brand, CarNode *startingNode)
     return nullptr;
 }
 
-CarNode *CarDataBase::recursiveFindingBrand() {
-    return nullptr;
-}
-
-CarNode*  CarDataBase::printOneByOne(unsigned int index) {
+CarNode *CarDataBase::printOneByOne(unsigned int index) {
     return this->getCarNode(index);
 }
 
 CarNode *CarDataBase::sortElements() {
     sortingLinkedList.bubbleSort(this->head);
     return this->head;
+}
+
+CarNode *CarDataBase::findCarByPrice(int min, int max, CarNode *startingNode) {
+    if (startingNode == nullptr) return nullptr;
+    while (startingNode != nullptr) {
+        if (startingNode->getCar()->getPrice() >= min && startingNode->getCar()->getPrice() <= max) return startingNode;
+        startingNode = startingNode->getNext();
+    }
+    return nullptr;
 }
 
 

@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <iomanip>
 #include "Car.h"
 
 const string &Car::getType() const {
@@ -55,12 +56,13 @@ void Car::setPrice(float price) {
 
 Car::Car(const string &type, const string &brand, const string &model, int mileage, int engineCapacity, float price)
         : type(type), brand(brand), model(model), mileage(mileage), engineCapacity(engineCapacity), price(price) {}
-void Car::print() const{
-    cout << "TYP NADWOZIA:			\t\t" << type << endl;
-    cout << "MARKA:					\t" << brand << endl;
-    cout << "MODEL:					\t" << model << endl;
-    cout << "PRZEBIEG:				\t" << mileage << endl;
-    cout << "CENA:					\t" << price << endl;
-    cout << "POJEMNOSC SILNIKA:		\t\t" << engineCapacity << endl << endl;
+
+void Car::print() const {
+    cout << std::setw(20) << std::left << "TYP_NADWOZIA:" << std::setw(50) << type << endl;
+    cout << std::setw(20) << std::left << "MARKA:" << std::setw(50) << brand << endl;
+    cout << std::setw(20) << std::left << "MODEL:" << std::setw(50) << model << endl;
+    cout << std::setw(20) << std::left << "PRZEBIEG:" << std::setw(50) << mileage << endl;
+    cout << std::setw(20) << std::left << "CENA:" << std::setw(50) << price << endl;
+    cout << std::setw(20) << std::left << "POJEMNOSC_SILNIKA:" << std::setw(50) << engineCapacity << endl << endl;
 
 }
