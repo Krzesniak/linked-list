@@ -88,94 +88,19 @@ CMakeFiles/Car.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Car.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\peter\CLionProjects\Car\main.cpp -o CMakeFiles\Car.dir\main.cpp.s
 
-CMakeFiles/Car.dir/Car.cpp.obj: CMakeFiles/Car.dir/flags.make
-CMakeFiles/Car.dir/Car.cpp.obj: ../Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Car.dir/Car.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Car.dir\Car.cpp.obj -c C:\Users\peter\CLionProjects\Car\Car.cpp
-
-CMakeFiles/Car.dir/Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Car.dir/Car.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\peter\CLionProjects\Car\Car.cpp > CMakeFiles\Car.dir\Car.cpp.i
-
-CMakeFiles/Car.dir/Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Car.dir/Car.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\peter\CLionProjects\Car\Car.cpp -o CMakeFiles\Car.dir\Car.cpp.s
-
-CMakeFiles/Car.dir/CarDataBase.cpp.obj: CMakeFiles/Car.dir/flags.make
-CMakeFiles/Car.dir/CarDataBase.cpp.obj: ../CarDataBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Car.dir/CarDataBase.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Car.dir\CarDataBase.cpp.obj -c C:\Users\peter\CLionProjects\Car\CarDataBase.cpp
-
-CMakeFiles/Car.dir/CarDataBase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Car.dir/CarDataBase.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\peter\CLionProjects\Car\CarDataBase.cpp > CMakeFiles\Car.dir\CarDataBase.cpp.i
-
-CMakeFiles/Car.dir/CarDataBase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Car.dir/CarDataBase.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\peter\CLionProjects\Car\CarDataBase.cpp -o CMakeFiles\Car.dir\CarDataBase.cpp.s
-
-CMakeFiles/Car.dir/CarNode.cpp.obj: CMakeFiles/Car.dir/flags.make
-CMakeFiles/Car.dir/CarNode.cpp.obj: ../CarNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Car.dir/CarNode.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Car.dir\CarNode.cpp.obj -c C:\Users\peter\CLionProjects\Car\CarNode.cpp
-
-CMakeFiles/Car.dir/CarNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Car.dir/CarNode.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\peter\CLionProjects\Car\CarNode.cpp > CMakeFiles\Car.dir\CarNode.cpp.i
-
-CMakeFiles/Car.dir/CarNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Car.dir/CarNode.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\peter\CLionProjects\Car\CarNode.cpp -o CMakeFiles\Car.dir\CarNode.cpp.s
-
-CMakeFiles/Car.dir/Application.cpp.obj: CMakeFiles/Car.dir/flags.make
-CMakeFiles/Car.dir/Application.cpp.obj: ../Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Car.dir/Application.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Car.dir\Application.cpp.obj -c C:\Users\peter\CLionProjects\Car\Application.cpp
-
-CMakeFiles/Car.dir/Application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Car.dir/Application.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\peter\CLionProjects\Car\Application.cpp > CMakeFiles\Car.dir\Application.cpp.i
-
-CMakeFiles/Car.dir/Application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Car.dir/Application.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\peter\CLionProjects\Car\Application.cpp -o CMakeFiles\Car.dir\Application.cpp.s
-
-CMakeFiles/Car.dir/SortingLinkedList.cpp.obj: CMakeFiles/Car.dir/flags.make
-CMakeFiles/Car.dir/SortingLinkedList.cpp.obj: ../SortingLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Car.dir/SortingLinkedList.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Car.dir\SortingLinkedList.cpp.obj -c C:\Users\peter\CLionProjects\Car\SortingLinkedList.cpp
-
-CMakeFiles/Car.dir/SortingLinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Car.dir/SortingLinkedList.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\peter\CLionProjects\Car\SortingLinkedList.cpp > CMakeFiles\Car.dir\SortingLinkedList.cpp.i
-
-CMakeFiles/Car.dir/SortingLinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Car.dir/SortingLinkedList.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\peter\CLionProjects\Car\SortingLinkedList.cpp -o CMakeFiles\Car.dir\SortingLinkedList.cpp.s
-
 # Object files for target Car
 Car_OBJECTS = \
-"CMakeFiles/Car.dir/main.cpp.obj" \
-"CMakeFiles/Car.dir/Car.cpp.obj" \
-"CMakeFiles/Car.dir/CarDataBase.cpp.obj" \
-"CMakeFiles/Car.dir/CarNode.cpp.obj" \
-"CMakeFiles/Car.dir/Application.cpp.obj" \
-"CMakeFiles/Car.dir/SortingLinkedList.cpp.obj"
+"CMakeFiles/Car.dir/main.cpp.obj"
 
 # External object files for target Car
 Car_EXTERNAL_OBJECTS =
 
 Car.exe: CMakeFiles/Car.dir/main.cpp.obj
-Car.exe: CMakeFiles/Car.dir/Car.cpp.obj
-Car.exe: CMakeFiles/Car.dir/CarDataBase.cpp.obj
-Car.exe: CMakeFiles/Car.dir/CarNode.cpp.obj
-Car.exe: CMakeFiles/Car.dir/Application.cpp.obj
-Car.exe: CMakeFiles/Car.dir/SortingLinkedList.cpp.obj
 Car.exe: CMakeFiles/Car.dir/build.make
 Car.exe: CMakeFiles/Car.dir/linklibs.rsp
 Car.exe: CMakeFiles/Car.dir/objects1.rsp
 Car.exe: CMakeFiles/Car.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Car.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\peter\CLionProjects\Car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Car.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Car.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

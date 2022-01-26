@@ -80,36 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/Application.cpp">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/Application.h">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/Car.cpp">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/Car.h">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/CarDataBase.cpp">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/CarDataBase.h">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/CarNode.cpp">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/CarNode.h">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/SortingLinkedList.cpp">
-			<Option target="Car"/>
-		</Unit>
-		<Unit filename="C:/Users/peter/CLionProjects/Car/SortingLinkedList.h">
-			<Option target="Car"/>
-		</Unit>
 		<Unit filename="C:/Users/peter/CLionProjects/Car/main.cpp">
 			<Option target="Car"/>
 		</Unit>
